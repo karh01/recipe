@@ -1,0 +1,157 @@
+html {
+    background-color: rgba(122,191,191,.5);
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  body {
+    margin: 0 auto;
+    width: 414px;
+    background-color: #f2f2f2;
+    color: #0d0d0d;
+    padding: 20px;
+    
+  }
+  
+  header {
+    top: auto;
+  }
+
+  
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+  }
+  
+  main {
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  menu {
+    background-color: #F2F2F2;
+    font-family: 'Bebas Neue', cursive;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+  }
+  
+  menu li {
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  nav {
+    width: 414px;
+    height: 75px;
+    display: flex;
+    top: 0;
+    z-index: 1;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  nav h2 {
+    visibility: hidden;
+  }
+  
+  nav li {
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+  }
+
+  label {
+    display: block;
+    position: relative;
+    user-select: none;
+  }
+
+  figcaption {
+    font-size: 20px;
+    color: #EB5428;
+    position: relative;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  
+  
+  #details {
+    display: inline;
+  }
+
+  dl {
+    display: flex;
+}
+
+dt {
+    text-align: left;
+}
+
+dd {
+    margin: 0;
+    padding: 2px, 4px;
+}
+
+  #ingredients {
+    float: left;
+    text-align: left;
+  }
+  
+  #directions {
+    display: block;
+  }
+
+  #socialmedia li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  #side {
+    background-color: #7ABFBF;
+  }
+
+  #top {
+    top: -20px;
+  }
+  
+  #goodeats figcation {
+    color: #0D0D0D;
+  }
+  
+  footer {
+    font-size: 20px;
+  }
+
+  footer img {
+    margin: 0;
+    width: 45%
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+        background-color: #f2f2f2;
+    }
+
+    nav {
+        width: 768px;
+    }
+  }
+  
+  
